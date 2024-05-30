@@ -17,7 +17,7 @@ void reverseArrayExtraArray(int arr[], int size)
 
 int main()
 {
-    int originalArr[] = { 1, 2, 3, 4, 5 };
+    int originalArr[] = { 2, 2, 3, 4, 5 };
     int size = sizeof(originalArr) / sizeof(originalArr[0]);
 
     reverseArrayExtraArray(originalArr, size);
